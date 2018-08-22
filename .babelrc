@@ -1,0 +1,18 @@
+{
+    
+    "plugins": [
+        ["relay",{
+            "schema":"./schema.graphql",
+            "watchInterval": 2000,
+            "verbose": true
+        }],
+        "transform-runtime",
+        ["babel-relay-plugin-loader"]
+    ],
+    "presets": [
+        "react",
+        "env",
+        "stage-0",
+        "react-app"
+    ]
+  }
